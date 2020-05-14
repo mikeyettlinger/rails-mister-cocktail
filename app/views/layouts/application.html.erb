@@ -14,6 +14,12 @@
   </head>
 
   <body>
+
+    <class class="navbar">
+      <p>My Cocktail Bar</p>
+      <%= link_to "New Cocktail", new_cocktail_path%>
+      <p><%= link_to "Home", cocktails_path%></p>
+    </class>
     <%= yield %>
   </body>
 </html>
